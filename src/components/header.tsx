@@ -39,7 +39,7 @@ const Header = () => {
         <h1 className="font-bold text-black md:pl-20 text-7xl">
           El secreto <br /> de tu cocina
         </h1>
-        <div className="-mt-6 md:-m-24">
+        <div className="-mt-6  md:-mt-6 md:-m-24">
           <Image src="/images/BRUSH.png" alt="brush" width="300" height="100" />
         </div>
       </div>
