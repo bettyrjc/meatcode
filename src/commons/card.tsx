@@ -13,7 +13,7 @@ const Card = ({ title, description, image }: CardProps) => {
   };
   return (
     <div className="gap-6 mt-4 rounded-md shadow-md w-72">
-      <Image src={image} width="288" height="200" alt="cream" style={styles} />
+      <Image src={image} width="288" height="200" alt={title} style={styles} />
       <div className="p-6">
         <h3 className="mb-2 text-lg font-extrabold text-black cursor-pointer hover:text-yellow ">
           {title}
