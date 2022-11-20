@@ -17,7 +17,7 @@ const ListButton = ({ setFilter, filter, name }: any) => {
         {name}
       </button>
       {(filter === name || (filter === "*" && name === "Todos")) && (
-        <HiArrowNarrowRight className="text-yellow" />
+        <HiArrowNarrowRight className="hidden text-yellow md:block" />
       )}
     </div>
   );
