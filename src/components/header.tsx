@@ -15,7 +15,7 @@ const Header = () => {
       />
       <div className="absolute top-0 z-50 w-full">
         <div className="flex justify-between w-full px-20 py-5">
-          <h1 className="text-xl font-bold md:text-5xl font-caveat">Logo</h1>
+          <span className="text-xl font-bold md:text-8xl font-caveat text-gray">Logo</span>
           <div className="flex gap-2">
             <Link href="/">
               <a className="flex items-center justify-center w-10 h-10 p-2 border-2 rounded-full border-blue text-blue">
@@ -36,10 +36,10 @@ const Header = () => {
         </div>
       </div>
       <div className="z-50">
-        <h1 className="font-bold text-black md:pl-20 text-7xl">
+        <h1 className="font-bold md:pl-20 text-7xl text-gray">
           El secreto <br /> de tu cocina
         </h1>
-        <div className="-mt-6  md:-mt-6 md:-m-24">
+        <div className="-mt-6 md:-mt-6 md:-m-24">
           <Image src="/images/BRUSH.png" alt="brush" width="300" height="100" />
         </div>
       </div>
