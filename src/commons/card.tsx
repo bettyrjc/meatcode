@@ -15,9 +15,9 @@ const Card = ({ title, description, image }: CardProps) => {
     <div className="gap-6 mt-4 rounded-md shadow-md w-72">
       <Image src={image} width="288" height="200" alt="cream" style={styles} />
       <div className="p-6">
-        <h2 className="mb-2 text-lg font-extrabold text-black cursor-pointer hover:text-yellow ">
+        <h3 className="mb-2 text-lg font-extrabold text-black cursor-pointer hover:text-yellow ">
           {title}
-        </h2>
+        </h3>
         <p className="text-black font-openSans">{description}</p>
       </div>
     </div>

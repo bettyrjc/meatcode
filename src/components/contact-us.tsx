@@ -24,7 +24,7 @@ const ContactUs = ({ onSubmit }: ContactProps) => {
   const {
     register,
     handleSubmit,
-    formState: { errors },
+    formState: { errors, isValid },
   } = useForm({
     mode: "all",
     reValidateMode: "onSubmit",
@@ -90,7 +90,7 @@ const ContactUs = ({ onSubmit }: ContactProps) => {
           </div>
         </div>
         <div className="flex justify-center my-4">
-          <Button color="primary" type="submit" />
+          <Button color="primary" type="submit" disabled={!isValid} />
         </div>
       </form>
     </div>
